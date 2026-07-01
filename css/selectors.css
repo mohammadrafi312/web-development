@@ -1,0 +1,65 @@
+/* types of selectors in CSS include: */
+
+1.universal selector (*)
+selects all elements on the page.
+*{
+    property: value;
+}
+
+2.element selector (div, p, h1, etc.)  
+selects all elements of a specific type.
+div{
+    property: value;
+}
+
+
+3.class selector (.class-name)
+selects all elements with a specific class.
+.class-name{
+    property: value;
+}
+
+4.id selector (#id-name)
+selects a single element with a specific id.
+#id-name{       
+    property: value;
+}
+
+5.attribute selector ([attribute])
+selects elements based on the presence or value of an attribute.
+[attribute]{
+    property: value;
+}
+
+6.pseudo-class selector (:hover, :focus, etc.)
+selects elements at a specific state or condition.
+selctor:pseudo-class{
+    content:value;
+    property: value;
+}
+
+7.pseudo-element selector (::before, ::after, etc.)
+selects and styles specific parts of an element.
+::before{
+    property: value;
+}   
+
+8.adjective selectors (e.g., div > p, div + p, div ~ p)
+div >p selects all p elements that are a direct child of a div element.
+snytax: div > p {
+    property: value;
+}
+
+div + p selects the first p element that is immediately preceded by a div element.
+syntax: div + p {
+    property: value;
+}
+div ~ p selects all p elements that are preceded by a div element.
+syntax: div ~ p {
+    property: value;
+}
+9.group selector (div, p, h1, etc.)
+selcsts using ,
+syntax: div, p, h1 {
+    property: value;
+}

@@ -1,0 +1,7 @@
+/* types of colors in CSS include:
+1. Named colors (e.g., red, blue, green)
+2. Hexadecimal colors (e.g., #FF0000, #00FF00, #0000FF)
+3. RGB colors (e.g., rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255))
+4. RGBA colors (e.g., rgba(255, 0, 0, 0.5), rgba(0, 255, 0, 0.5), rgba(0, 0, 255, 0.5))
+5. HSL colors (e.g., hsl(0, 100%, 50%), hsl(120, 100%, 50%), hsl(240, 100%, 50%))
+6. HSLA colors (e.g., hsla(0, 100%, 50%, 0.5), hsla(120, 100%, 50%, 0.5), hsla(240, 100%, 50%, 0.5)) */

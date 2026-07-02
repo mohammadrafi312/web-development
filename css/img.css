@@ -1,0 +1,9 @@
+div{
+    height: 200px;
+    width: 600px;
+    background-color:red;
+    margin-top: 20px;
+    margin-left: 20px;
+box-shadow: 0 0 30px 10px black;}
+
+/* syntax for box-shadow: horizontal-offset vertical-offset blur-radius spread-radius color; */

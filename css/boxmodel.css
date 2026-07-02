@@ -1,0 +1,28 @@
+/* div{
+    height: 200px;
+    width: 600px;
+    border: 2px solid greenyellow;
+    margin-bottom: 20px;
+} */
+.outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+ }
+  .inner{ 
+    border-radius:50%;;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+  }
+  #red{
+    background-color: red;
+  }
+  #yellow{
+    background-color: yellow;
+  }
+  #green{
+    background-color: green;
+  }
+ 

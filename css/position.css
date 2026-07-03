@@ -1,0 +1,41 @@
+.static{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    position:static;
+    top: 50px;
+    left: 20px;
+}
+.relative{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position:relative;
+    top: 50px;
+    left: 20px;
+}
+.absolute{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position:absolute;
+    top: 50px;
+    left: 200px;
+}
+.fixed{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position:fixed;
+    top: 50px;
+    left: 200px;
+}
+.sticky{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position:sticky;
+    top: 0px;
+}
+    

@@ -1,0 +1,17 @@
+#flex-container{
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content:center;
+
+
+}
+div {
+    height: 50px;
+    width: 150px;
+
+
+}

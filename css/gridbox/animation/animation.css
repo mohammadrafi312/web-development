@@ -1,0 +1,30 @@
+div{
+    
+    /* animation-name: widthAnimation;
+    animation-duration: 5s;
+    animation-timing-function:ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate ; */
+    animation: widthAnimation 3s ease-in 0s 1 normal;
+    border:2px solid black;
+        background-color: lightblue;
+                width: 600px;
+border-radius: 5px;
+
+}
+
+@keyframes widthAnimation {
+    from {
+            background-color: lightblue;
+
+        width: 70px;
+        height: 20px;;
+    }
+    to {
+            background-color: lightblue;
+
+        width: 600px;
+        height: 20px;  
+    }
+}

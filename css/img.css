@@ -1,9 +1,31 @@
-div{
-    height: 200px;
-    width: 600px;
-    background-color:red;
-    margin-top: 20px;
-    margin-left: 20px;
-box-shadow: 0 0 30px 10px black;}
 
-/* syntax for box-shadow: horizontal-offset vertical-offset blur-radius spread-radius color; */
+
+   .card {
+    width: 250px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 20px;
+}
+
+
+ 
+
+#male{
+    padding: 10px;
+text-align: center;
+}
+#female{
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+img{
+    width: 250px;
+    height: 200px;
+   
+}
+.card:hover{
+    box-shadow: 10px 10px 10px  rgb(48, 46, 46);
+}

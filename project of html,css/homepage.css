@@ -9,27 +9,37 @@
     background-size: cover;
 }
 .main_box .btn_one{
+    position: absolute;
     color: white;
     font-size :30px;
+    left:5px;
+    top:5px;
+    line-height:40px;
 }
 
 .main_box #check{
     display:none;
 }
-.sidebar_menu .logo a{
+.sidebar_menu .logo {
 position: absolute;
-   color: white;
-   text-decoration: none;
-   font-size: 25px;
    left: 40px;
 }
+.sidebar_menu .logo a{
+    color: white;
+   text-decoration: none;
+   font-size: 25px;
+   
+}
 .sidebar_menu{
-    width:250px;
+    position:fixed;
+   width:300px;
+    /* width:250px; */
     height: 100vh;
-    position: absolute;
+    left: -350px;
+    
     border: 2px solid grey;
-    top: 0px;
     background-color:rgba(180, 184, 180,0.1);
+
     
 }
 .sidebar_menu i{
@@ -48,35 +58,53 @@ position: absolute;
     top:0px;
     right:10px;
     font-size:30px;
+    cursor: pointer;
 }
 .sidebar_menu .menu{
     margin-top:80px;
-     /* position: absolute;   */
-    /* border: 2px solid white; */
-    /* right: 0px; */
-    /* left: 30px; */
-    /* border:2px solid grey; */
-}
+      /* position: absolute;   
+    /border: 2px solid white;  */
+    /* right: 0px; 
+     left: 30px;
+     border:2px solid grey;  */
+ }
 .sidebar_menu .social_media{
-    position:absolute;
-    bottom: 100px;
+     position:absolute; 
+     bottom: 100px;
     left:50px;
 }
 .social_media i{
     padding-left:5px; 
-    /* border:2px solid grey; */
+     /* border:2px solid grey; */
 }
-/* .sidebar_menu .menu i,a{
+ .sidebar_menu .menu i,a{
 
-/* border:2px solid grey; 
-}*/
+} 
  
-.sidebar_menu .menu li {
+ .sidebar_menu .menu li {
     list-style: none;
     padding:20px;
-    padding-left:35px;
-    /* border: 1px solid grey; */
+    padding-left:40px;
+    
 }
 .social_media i:hover{
    opacity: 1;
+   font-size:20px;
+}
+.sidebar_menu .menu li:hover{
+  border:2px solid grey; 
+  background: rgba(255, 255, 255, 0.07);
+  border-radius:10px;
+   font-size:25px;
+}
+.sidebar_menu .menu i,a{
+    padding-left:10px;
+    font-size:20px;
+} 
+#check:checked ~ .sidebar_menu{
+    left:0px;
+}
+#check:checked ~.btn_one{
+    display:none;
+    
 }

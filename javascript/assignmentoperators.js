@@ -1,3 +1,5 @@
+// assignment operators are short pre crement and post increment 
+
 let a = 10 ;
 a += 10 ;
 console.log(a);

@@ -8,5 +8,4 @@ console.log(newage);
 let b = 10 ;
 let newag =b++;
 console.log(newag);
-
 console.log(b);

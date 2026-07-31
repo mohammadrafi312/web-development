@@ -1,4 +1,4 @@
-
+// template embbed the 
 let pencilprice = 10 ;
 let eraserprice = 5 ;
 // let total = pencilprice + eraserprice ;

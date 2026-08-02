@@ -14,8 +14,13 @@ let fruits = ["apple", "banana", "cherry", "date", "elderberry"];
 //  // remove from start
 // console.log(fruits);
 
-//reverse and sort methods
+//reverse method
 console.log(fruits.reverse());
+
+//sort method
 let num = [5, 2, 9, 1, 5, 6];
 console.log(num.sort());
+
+//concat method
+console.log(fruits.concat(num));
 

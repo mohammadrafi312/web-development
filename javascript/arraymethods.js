@@ -24,3 +24,6 @@ console.log(num.sort());
 //concat method
 console.log(fruits.concat(num));
 
+//const variable
+const colors = ["red", "green", "blue"];
+// colors = ["yellow", "purple"]; // This will throw an error because colors is a const variable

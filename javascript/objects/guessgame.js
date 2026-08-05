@@ -1,0 +1,1 @@
+let max =prompt("enter the maximum range");

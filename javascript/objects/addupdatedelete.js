@@ -9,6 +9,5 @@ student.name = "rafi";//updated
 console.log(student);
 student.gender ="male";//added
 console.log(student);
-
 delete student.course;//deleted
 console.log(student);

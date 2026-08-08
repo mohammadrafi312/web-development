@@ -20,10 +20,17 @@
 // console.log(s);
 
 //check even or odd number
-
-let odd = function(n){
- console.log(!(n%2==0));
-}
-let even = function(n){
+function checkevenodd(num){
+if (num == "even"){ 
+   let even = function(n){
     console.log(n%2==0);
+  }
+return even;
+}else if(num =="odd"){
+  let odd = function(n){
+ console.log(!(n%2==0));
+}  
+return odd;
 }
+}
+checkevenodd(3);
